@@ -7,6 +7,7 @@ private:
     const char *ssid;
     const char *password;
     void ConnectToWiFi();
+    void GetTimeFromNTP();
 
 public:
     Time(const char *ssid, const char *password);
